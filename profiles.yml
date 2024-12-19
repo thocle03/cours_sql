@@ -1,0 +1,9 @@
+tclerc:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: citric-alliance-444522-a0
+      dataset: raw_data
+      location: EU
